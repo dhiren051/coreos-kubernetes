@@ -1034,7 +1034,7 @@ function enable_calico {
 
 init_config
 init_templates
-systemctl enable etcd2; systemctl start etcd2
+systemctl enable etcd-member; systemctl start etcd-member
 
 chmod +x /opt/bin/host-rkt
 
